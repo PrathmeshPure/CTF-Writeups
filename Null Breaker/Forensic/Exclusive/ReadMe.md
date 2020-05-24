@@ -1,4 +1,4 @@
-##NuLL_Br3aker_2020 CTF Writeup
+# NuLL_Br3aker_2020 CTF Writeup
 Hello Folks, I am Prathamesh, I have recently started with CTFs.
 This is my very first writeup on CTF(So please bear with me) and will be sharing more from now.
 ### EXCLUSIVE by NuLL Br3aker 2020 (https://ctf.0xdeadbeef.games/)
