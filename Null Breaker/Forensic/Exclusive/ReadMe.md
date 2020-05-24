@@ -40,4 +40,4 @@ I took a screenshot of it for better visibility.
 
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/Null%20Breaker/Forensic/Exclusive/supporting/screenshot.png)
 
-`nbCTF{n0_on3_i5_saf3` is the flag.
+`nbCTF{n0_on3_i5_saf3}` is the flag.
