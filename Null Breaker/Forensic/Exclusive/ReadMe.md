@@ -1,4 +1,4 @@
-# EXCLUSIVE
+# EXCLUSIVE by NuLL Br3aker 2020 (https://ctf.0xdeadbeef.games/)
 ## Category- Forensic
 ### Given Question-
 ### Two soldiers are communicating through pictures. The war created lots of loss to both parties. You need to find out what is their last message.
