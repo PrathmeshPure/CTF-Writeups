@@ -6,4 +6,5 @@ Flag is present at
 <br>
 view-source:https://ctf.nahamcon.com/rules
 <br>
+
 `flag{we_hope_you_enjoy_the_game}`

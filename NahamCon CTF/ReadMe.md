@@ -1,127 +1,36 @@
 # NahamCon CTF Writeup
 Hello Folks, I am Prathamesh, back again with another writeup.
-<br>This writeup is of NahamCon CTF (https://ctf.nahamcon.com) event.
+<br>This writeup is of NahamCon CTF (https://ctf.nahamcon.com) event specially targetting for Noob Players.
 <br>
 <img src="https://d24wuq6o951i2g.cloudfront.net/img/events/id/457/457748121/assets/5b11c1bdf53d63178f90d97d6dc2db87.NahamCon-Logo-Vertical-Main-.png" alt="logo" height="400"/>
 <br>
 Hosted on 12 June, 20:30 IST — 14 June 2020, 03:30 IST Jeopardy On-line
 <br>
+
 ## Category Warmup
 
-### Name: CLIsay
-Value: 20<br>
-Description: cowsay is hiding something from us!
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/chall.png "Challenge")
-<br>
-For this challenge `ELF` library was given.
-<br>
-```
-clisay: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=70e60678f1c0b75ea3aae2a4e8e1e8978e3c6fc0, for GNU/Linux 3.2.0, not stripped
-```
-<br>
-![Given File](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/clisay)
-<br>
-For analysis the file, I used https://cloud.binary.ninja and could see the flag in plain text.
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/flag.png "Flag")
-<br>
-`flag{Y0u_c4n_r3Ad_M1nd5}`
+[CLIsay](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/ReadMe.md)
 
-### Name: Metameme
-Value: 25<br>
-Description: Hacker memes. So meta.
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Metameme/chall.png "Challenge")
-<br>
-Only `JPG` file was given, and name is suggesting `Meta`
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Metameme/hackermeme.jpg "Given Image")
-<br>
-exiftool to the rescue.
-<br>
-`>> exiftool hackermeme.jpg `
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Metameme/flag.png "Flag")
-<br>
-`flag{N0t_7h3_4cTuaL_Cr3At0r}`
+[Metameme](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Metameme/ReadMe.md)
 
-### Name: Mr. Robot
-Value: 25<br>
-Description: Elliot needs your help. You know what to do. Connect here:http://jh2i.com:50032
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Mr%20Robot/chall.png "Challenge")
-<br>
-Name itself is a hint for this challenge.
-<br>
-Flag was present at http://jh2i.com:50032/robots.txt
-<br>
-`flag{welcome_to_robots.txt}`
+[Mr. Robot](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Mr%20Robot/ReadMe.md)
 
-### Name: Easy Keesy
-Value: 30<br>
-Description: Dang it, not again...
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/chall.png "Challenge")
-<br>
-For this challenge `KDBX` file was given.
-<br>
-`Keepass password database 2.x KDBX`
-<br>
-Firstly rename the file, then generate its hash by `keepass2john` by below commands.
-```
->> mv easy_keesy easy_keesy.kdbx
->> keepass2john easy_keesy.kdbx > easy_keesy.kdbx.hash
->> cat easy_keesy.kdbx.hash
+[Easy Keesy](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/ReadMe.md)
 
-easy_keesy:$keepass$*2*100000*0*d92288b1c51244a6b5adf65895aef924ddc083a819e0dbd387e7b842649c7974*af85267b1972de6c67cd4fa43d6b4d1b212516d4acd801643e8440f043332477*2d587ad4c839c1d2265525946215fb7e*215547d465bc6fb180a17abbd51625c4c3159b555d880d95400002355f7e2ab8*fbdc2c7d91a59d942e71d6b4d089e3ecbea5a2ab4d86094a6e777626b8779504
-```
+[Pang](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/ReadMe.md)
 
-<br>
-Save below part of the output to file.
+## Category OSINT
 
-```
-$keepass$*2*100000*0*d92288b1c51244a6b5adf65895aef924ddc083a819e0dbd387e7b842649c7974*af85267b1972de6c67cd4fa43d6b4d1b212516d4acd801643e8440f043332477*2d587ad4c839c1d2265525946215fb7e*215547d465bc6fb180a17abbd51625c4c3159b555d880d95400002355f7e2ab8*fbdc2c7d91a59d942e71d6b4d089e3ecbea5a2ab4d86094a6e777626b8779504
-```
+[Finsta](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/OSINT/Finsta/ReadMe.md)
 
-Then crack the hash by below command.
+[Time Keeper](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/OSINT/Time%20Keeper/ReadMe.md)
 
-`>> hashcat --force -a 0 -m 13400 easy_keesy.txt /usr/share/wordlists/rockyou.txt`
+## Category Cryptography
 
-<br>
+[Ooo-la-la](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Cryptography/Ooo-la-la/ReadMe.md)
 
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/1st.png "Output")
+## Category Forensics
 
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/2nd.png "Output")
-<br>
-From the output, password can be seen(monkeys).
-<br>
-Just by opening the Keepass file in application and submitting the password, flag is waiting for you.
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/flag.png "Flag")
-<br>
-`flag{jtr_found_the_keys_to_kingdom}`
+[Cow Pie](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Forensics/Cow%20Pie/ReadMe.md)
 
-### Name: Pang
-Value: 40<br>
-Description: This file does not open!
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/chall.png "Challenge")
-<br>
-File named Pang was given.
-<br>
-![Given File](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/pang)
-<br>
-Using file command, its confirm that its PNG image.
-<br>
-Tried renaming it to png, But it can't be opened.
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/1st.png "Output")
-<br>
-Again strings command to the rescue.
-<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/flag.png "Flag")
-<br>
-`flag{wham_bam_thank_you_for_the_flag_maam}`
-<br><br><br>
-[Cryptography Ooo-la-la](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Cryptography/Ooo-la-la/ReadMe.md)
+[Microsooft](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Forensics/Microsooft/ReadMe.md)
