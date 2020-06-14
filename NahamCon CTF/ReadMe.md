@@ -2,10 +2,6 @@
 Hello Folks, I am Prathamesh, back again with another writeup.
 <br>This writeup is of NahamCon CTF (https://ctf.nahamcon.com) event.
 <br>
-![img](https://d24wuq6o951i2g.cloudfront.net/img/events/id/457/457748121/assets/5b11c1bdf53d63178f90d97d6dc2db87.NahamCon-Logo-Vertical-Main-.png =300x400)
-<br>
-![img](https://d24wuq6o951i2g.cloudfront.net/img/events/id/457/457748121/assets/5b11c1bdf53d63178f90d97d6dc2db87.NahamCon-Logo-Vertical-Main-.png =300x400){:height="400px" width="300px"}
-<br>
 <img src="https://d24wuq6o951i2g.cloudfront.net/img/events/id/457/457748121/assets/5b11c1bdf53d63178f90d97d6dc2db87.NahamCon-Logo-Vertical-Main-.png" alt="logo" height="400"/>
 <br>
 Hosted on 12 June, 20:30 IST — 14 June 2020, 03:30 IST Jeopardy On-line
@@ -73,7 +69,6 @@ For this challenge `KDBX` file was given.
 `Keepass password database 2.x KDBX`
 <br>
 Firstly rename the file, then generate its hash by `keepass2john` by below commands.
-<br>
 ```
 >> mv easy_keesy easy_keesy.kdbx
 >> keepass2john easy_keesy.kdbx > easy_keesy.kdbx.hash
@@ -83,7 +78,7 @@ easy_keesy:$keepass$*2*100000*0*d92288b1c51244a6b5adf65895aef924ddc083a819e0dbd3
 ```
 <br>
 Save below part of the output to file.
-<br>
+
 ```
 $keepass$*2*100000*0*d92288b1c51244a6b5adf65895aef924ddc083a819e0dbd387e7b842649c7974*af85267b1972de6c67cd4fa43d6b4d1b212516d4acd801643e8440f043332477*2d587ad4c839c1d2265525946215fb7e*215547d465bc6fb180a17abbd51625c4c3159b555d880d95400002355f7e2ab8*fbdc2c7d91a59d942e71d6b4d089e3ecbea5a2ab4d86094a6e777626b8779504
 ```
