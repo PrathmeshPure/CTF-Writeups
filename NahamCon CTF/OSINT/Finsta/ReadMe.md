@@ -1,6 +1,6 @@
 ### Name: Finsta
 Value: 50<br>
-Description: This time we have a username. Can you track down <**NahamConTron** ?
+Description: This time we have a username. Can you track down **NahamConTron** ?
 <br>
 
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/OSINT/Finsta/chall.png "Challenge")
