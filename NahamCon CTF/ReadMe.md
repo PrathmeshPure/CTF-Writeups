@@ -2,7 +2,7 @@
 Hello Folks, I am Prathamesh, back again with another writeup.
 This writeup is of NahamCon CTF (https://ctf.nahamcon.com) event.
 
-![alt text](https://d24wuq6o951i2g.cloudfront.net/img/events/id/457/457748121/assets/5b11c1bdf53d63178f90d97d6dc2db87.NahamCon-Logo-Vertical-Main-.png "NahamCon Logo")
+![](https://d24wuq6o951i2g.cloudfront.net/img/events/id/457/457748121/assets/5b11c1bdf53d63178f90d97d6dc2db87.NahamCon-Logo-Vertical-Main-.png =300x400)
 
 Hosted on 12 June, 20:30 IST — 14 June 2020, 03:30 IST Jeopardy On-line
 
@@ -102,20 +102,23 @@ Just by opening the Keepass file in application and submitting the password, fla
 ### Name: Pang
 Value: 40<br>
 Description: This file does not open!
-
+<br>
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/chall.png "Challenge")
-
+<br>
 File named Pang was given.
-
+<br>
 ![Given File](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/pang)
-
+<br>
 Using file command, its confirm that its PNG image.
-
+<br>
 Tried renaming it to png, But it can't be opened.
-
+<br>
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/1st.png "Output")
-
+<br>
 Again strings command to the rescue.
+<br>
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/flag.png "Flag")
-
+<br>
 `flag{wham_bam_thank_you_for_the_flag_maam}`
+<br><br><br>
+![](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Cryptography/Ooo-la-la/ReadMe.md)
