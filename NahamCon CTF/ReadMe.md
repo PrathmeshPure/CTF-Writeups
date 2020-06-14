@@ -9,31 +9,31 @@ Hosted on 12 June, 20:30 IST — 14 June 2020, 03:30 IST Jeopardy On-line
 
 ## Category Warmup
 
-[CLIsay](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/ReadMe.md)
+[CLIsay](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/)
 
-[Metameme](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Metameme/ReadMe.md)
+[Metameme](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Metameme/)
 
-[Mr. Robot](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Mr%20Robot/ReadMe.md)
+[Mr. Robot](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Mr%20Robot/)
 
-[Easy Keesy](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/ReadMe.md)
+[Easy Keesy](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/)
 
-[Pang](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/ReadMe.md)
+[Pang](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Pang/)
 
 ## Category OSINT
 
-[Finsta](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/OSINT/Finsta/ReadMe.md)
+[Finsta](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/OSINT/Finsta/)
 
-[Time Keeper](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/OSINT/Time%20Keeper/ReadMe.md)
+[Time Keeper](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/OSINT/Time%20Keeper/)
 
 ## Category Cryptography
 
-[Ooo-la-la](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Cryptography/Ooo-la-la/ReadMe.md)
+[Ooo-la-la](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Cryptography/Ooo-la-la/)
 
 ## Category Forensics
 
-[Cow Pie](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Forensics/Cow%20Pie/ReadMe.md)
+[Cow Pie](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Forensics/Cow%20Pie/)
 
-[Microsooft](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Forensics/Microsooft/ReadMe.md)
+[Microsooft](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Forensics/Microsooft/)
 
 ## Category Mobile
 
@@ -45,10 +45,10 @@ Hosted on 12 June, 20:30 IST — 14 June 2020, 03:30 IST Jeopardy On-line
 
 [Doh](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Steganography/Doh/)
 
-[Old School](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Steganography/Old%20School)
+[Old School](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Steganography/Old%20School/)
 
 ## Category Web
 
-[Agent 95](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Agent%2095)
+[Agent 95](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Agent%2095/)
 
-[Localghost](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Localghost)
+[Localghost](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Localghost/)
