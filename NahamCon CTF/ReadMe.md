@@ -15,11 +15,15 @@ Description: cowsay is hiding something from us!
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/chall.png "Challenge")
 
 For this challenge `ELF` library was given.
+
 ```
 clisay: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, BuildID[sha1]=70e60678f1c0b75ea3aae2a4e8e1e8978e3c6fc0, for GNU/Linux 3.2.0, not stripped
 ```
+
 ![Given File](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/clisay)
+
 For analysis the file, I used https://cloud.binary.ninja and could see the flag in plain text.
+
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/flag.png "Flag")
 
 `flag{Y0u_c4n_r3Ad_M1nd5}`
@@ -44,7 +48,7 @@ exiftool to the rescue.
 Value: 25
 Description: Elliot needs your help. You know what to do. Connect here:http://jh2i.com:50032
 
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Mr%Robot/chall.png "Challenge")
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Mr%20Robot/chall.png "Challenge")
 
 Name itself is a hint for this challenge.
 Flag was present at http://jh2i.com:50032/robots.txt
@@ -54,7 +58,7 @@ Flag was present at http://jh2i.com:50032/robots.txt
 Value: 30
 Description: Dang it, not again...
 
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%Keesy/chall.png "Challenge")
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/chall.png "Challenge")
 
 For this challenge `KDBX` file was given.
 `Keepass password database 2.x KDBX`
@@ -74,8 +78,8 @@ $keepass$*2*100000*0*d92288b1c51244a6b5adf65895aef924ddc083a819e0dbd387e7b842649
 Then crack the hash by below command.
 `>> hashcat --force -a 0 -m 13400 easy_keesy.txt /usr/share/wordlists/rockyou.txt`
 
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%Keesy/1st.png "Output")
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%Keesy/2nd.png "Output")
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/1st.png "Output")
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Easy%20Keesy/2nd.png "Output")
 
 From the output, password can be seen(monkey).
 

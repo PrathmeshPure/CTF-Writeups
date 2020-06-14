@@ -1,5 +1,11 @@
-Name: Mr. Robot
+### Name: Mr. Robot
 Value: 25
-Description: Elliot needs your help. You know what to do. <br><br>Connect here:<br><a href="http://jh2i.com:50032">http://jh2i.com:50032</a>
+Description: Elliot needs your help. You know what to do. Connect here:http://jh2i.com:50032
 
-flag{welcome_to_robots.txt}
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/Mr%20Robot/chall.png "Challenge")
+
+Name itself is a hint for this challenge.
+
+Flag was present at http://jh2i.com:50032/robots.txt
+
+`flag{welcome_to_robots.txt}`
