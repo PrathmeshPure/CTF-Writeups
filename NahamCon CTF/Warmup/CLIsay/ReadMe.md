@@ -5,8 +5,9 @@ Description: cowsay is hiding something from us!
 
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/chall.png "Challenge")
 
-<br>
+
 For this challenge `ELF` library was given.
+
 <br>
 
 ```
@@ -16,7 +17,7 @@ clisay: ELF 64-bit LSB pie executable, x86-64, version 1 (SYSV), dynamically lin
 ![Given File](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/clisay)
 
 <br>
-For analysis the file, I used https://cloud.binary.ninja and could see the flag in plain text.
+For analysis the file, I used https://cloud.binary.ninja and could see the flag in plain text.<br>
 
 ![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Warmup/CLIsay/flag.png "Flag")
 

@@ -34,3 +34,21 @@ Hosted on 12 June, 20:30 IST — 14 June 2020, 03:30 IST Jeopardy On-line
 [Cow Pie](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Forensics/Cow%20Pie/ReadMe.md)
 
 [Microsooft](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Forensics/Microsooft/ReadMe.md)
+
+## Category Mobile
+
+[Candroid](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Mobile/Candroid/)
+
+[Simple App](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Mobile/Simple%20App/)
+
+## Category Steganography
+
+[Doh](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Steganography/Doh/)
+
+[Old School](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Steganography/Old%20School)
+
+## Category Web
+
+[Agent 95](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Agent%2095)
+
+[Localghost](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Localghost)
