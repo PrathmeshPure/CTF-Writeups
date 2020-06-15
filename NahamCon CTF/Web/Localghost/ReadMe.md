@@ -4,19 +4,19 @@ Description: BooOooOooOOoo! This spooOoOooky client-side cooOoOode sure is scary
 
 <br>
 
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Localghost/chall.png "Challenge")
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Web/Localghost/chall.png "Challenge")
 
 On loading given link, pages seems ok.<br>
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Localghost/ghost.png "Challenge")
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Web/Localghost/ghost.png "Challenge")
 
 view-source:http://jh2i.com:50003/jquery.jscroll2.js <br>
 It shows Obfuscated Javascript</b>
 
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Localghost/1st.png "Challenge")
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Web/Localghost/1st.png "Challenge")
 
 Use Javascript Unobfuscator online
 
-![alt text](https://github.com/PrathmeshPure/CTF-Writeups/tree/master/NahamCon%20CTF/Web/Localghost/2nd.png "Challenge")
+![alt text](https://github.com/PrathmeshPure/CTF-Writeups/blob/master/NahamCon%20CTF/Web/Localghost/2nd.png "Challenge")
 
 From the output, below part can be seen,<br>
 
